@@ -1,0 +1,72 @@
+this is a decodable text format, for literacy teaching, emphasizing pronunciation. Your task is to extract the text from that image into html tags format. Please follow these rules:
+1: keep the decodable text format, making sure it's got the proper formatting (diacritical marks, font size)
+2: remove the underline
+3: remove the superscript numbers
+4: return only the content of the html body
+
+
+
+
+
+
+
+
+rule1: keep the info of what sentences are being underlined, make sure every underlined sentence in the image should be represented as underlined in the html
+rule2: keep diacritical marks of each one of the letters, make sure that letters without diacritical marks won't be represented as such
+rule3: the size of the letters matter, so if a letter has smaller font-size it should be represented as such, make sure all other letters are in normal size
+rule4: 
+
+
+
+
+
+
+
+
+
+
+example: the title of the text should be like: <u>p</u>ā<small>i</small>nt that nōs<small>e</small></u>
+
+
+
+
+
+
+Result looks really good. Notice that some letter are smaller than the others, in this case use small html tag to keep the format. Please update the previous prompt with the new instruction and keep the same image as reference
+
+==============
+
+
+This is a decodable text format for early literacy teaching, emphasizing pronunciation and visual phonics. Extract the text from the image into HTML body content while preserving its decodable structure and typography.
+Rules:
+1. Maintain the decodable format, including diacritical marks (e.g., macrons).
+2. Represent letters that appear in a smaller font using the <small> HTML tag.
+3. Remove all underlines and superscript numbers.
+4. Return only the HTML content intended for the <body> section, without including full HTML or <head>.
+5. Use <br> tags for line breaks within paragraphs and wrap content in <p> tags for each block.
+6. Do not simulate or approximate — reflect the exact typographic features visible in the image.
+
+================
+
+This is a decodable text format for early literacy teaching, emphasizing pronunciation and visual phonics. Extract the text from the image into HTML body content while preserving its decodable structure and typography.
+Rules:
+1. Maintain the decodable format, including diacritical marks (e.g., macrons).
+2. Represent letters that appear in a smaller font using the <small> HTML tag.
+3. Remove all underlines and superscript numbers.
+4. Return only the HTML content intended for the <body> section, without including full HTML or <head>.
+5. Use <br> tags for line breaks within paragraphs and wrap content in <p> tags for each block.
+6. Do not simulate or approximate — reflect the exact typographic features visible in the image.
+7. If you are unsure about font sizes, make them <span> in red color.
+
+
+=================
+
+This is a decodable text format for early literacy teaching, emphasizing pronunciation and visual phonics. Extract the text from the image into HTML body content while preserving its decodable structure and typography.
+Rules:
+1. Maintain the decodable format, including diacritical marks (e.g., macrons).
+2. Remove all underlines and superscript numbers.
+3. Return only the HTML content intended for the <body> section, without including full HTML or <head>.
+4. Do not simulate or approximate — reflect the exact typographic features visible in the image.
+5. Words that don't have macrons in the image should be left as is.
+
+
